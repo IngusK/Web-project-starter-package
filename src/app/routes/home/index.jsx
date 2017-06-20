@@ -1,11 +1,12 @@
 import React from 'react';
-import style from './style.scss';
 import {Link} from 'react-router-dom';
 
+import style from './style.scss';
+
 const Home = () => (
-  <div className="wrapper">
-    <h1>Home page!</h1>
-    <Link to="/about">About</Link>
+  <div>
+    <div className="main_content">Content</div>
+    {/* <Link to="/about">About</Link> */}
   </div>
 );
 

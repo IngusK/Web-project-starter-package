@@ -2,8 +2,10 @@ import React from 'react';
 import style from './style.scss';
 
 const Wrapper = ({ children }) => (
-  <div className="wrapper">
+  <div className="grid-wrapper">
+    <header>Header</header>
     {children}
+    <footer>Footer</footer>
   </div>
 );
 
