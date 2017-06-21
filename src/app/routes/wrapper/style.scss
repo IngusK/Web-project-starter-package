@@ -7,7 +7,7 @@
   grid-template-rows: [header] 200px [content] 1fr [footer] 200px ;
   grid-template-areas: "header" "content" "footer";
   header {
-    display: flex;
+    display: grid;
     grid-area: header;
     background: $ligthGray;
     color: $black;
@@ -15,7 +15,7 @@
     align-items: center;
   }
   footer {
-    display: flex;
+    display: grid;
     grid-area: footer;
     background: $ligthGray;
     color: $black;
