@@ -4,8 +4,8 @@ import {Link} from 'react-router-dom';
 import style from './style.scss';
 
 const Home = () => (
-  <div>
-    <div className="main_content">Content</div>
+  <div className="main_content">
+    <div>Content</div>
     {/* <Link to="/about">About</Link> */}
   </div>
 );
