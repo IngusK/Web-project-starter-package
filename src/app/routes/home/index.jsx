@@ -5,8 +5,7 @@ import style from './style.scss';
 
 const Home = () => (
   <div className="main_content">
-    <div>Content</div>
-    {/* <Link to="/about">About</Link> */}
+    Content
   </div>
 );
 

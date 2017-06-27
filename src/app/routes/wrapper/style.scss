@@ -3,8 +3,9 @@
 .grid-wrapper {
   display: grid;
   height: 100vh;
+  background: $white;
   grid-template-columns: 1fr;
-  grid-template-rows: [header] 200px [content] 1fr [footer] 200px ;
+  grid-template-rows: 100px 1fr 180px ;
   grid-template-areas: "header" "content" "footer";
   header {
     display: grid;
@@ -21,5 +22,13 @@
     color: $black;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 180px ;
+    grid-template-areas: "header" "content" "footer";
   }
 }
