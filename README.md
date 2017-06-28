@@ -20,4 +20,4 @@ Before launching a project make you have the latest yarn packages installed. To 
 
 To start a development project run <pre>yarn start</pre> or <pre>yarn start:dev</pre> This will build a development bundle with hot reload etc.
 
-To build a production project run <pre>yarn start:prod</pre> This will build a production bundle which will be much smaller with all js files minified. Then you can use <b>main.js</b> file to upload it to your hosting.
+To build a production bundle run <pre>yarn start:prod</pre> This will build a production bundle which will be much smaller with all js files minified. Then you can use <b>main.js</b> file to upload it to your hosting.
