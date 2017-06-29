@@ -14,6 +14,8 @@
 - Production environment (~ 435Kb)
 - Basic CSS Grid layout to begin a project
 
+* Using mobile first approach and rem units, calculated for easy px use (for example 1.4rem = 14px)
+
 Great setup to start a new web project.
 
 Before launching a project make you have the latest yarn packages installed. To do that launch "yarn" command in tour terminal.
@@ -21,3 +23,5 @@ Before launching a project make you have the latest yarn packages installed. To 
 To start a development project run <pre>yarn start</pre> or <pre>yarn start:dev</pre> This will build a development bundle with hot reload etc.
 
 To build a production bundle run <pre>yarn start:prod</pre> This will build a production bundle which will be much smaller with all js files minified. Then you can use <b>main.js</b> file to upload it to your hosting.
+
+Launch <pre>localhost:1234/</pre> in your browser to open a project.

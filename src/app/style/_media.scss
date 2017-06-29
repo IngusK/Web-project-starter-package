@@ -1,6 +1,6 @@
-$mobile: (min-width: 320px);
-$mobileLand: (min-width: 480px);
-$tablet: (max-width: 768px);
-$tabletLand: (min-width: 1024px);
-$laptop: (min-width: 1224px);
-$desktop: (min-width: 1824px);
+$mobile: 28.75rem; //460px
+$mobileLarge: 48rem; //768px
+$tablet: 980px; //980px
+$tabletLarge: 61.25rem; //1080px
+$desktop: 73.75rem; //1180px
+$desktopLarge: 77.5rem; //1240px
