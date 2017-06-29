@@ -13,7 +13,7 @@
 - Development environment (~ 5Mb)
 - Production environment (~ 435Kb)
 - Basic CSS Grid layout to begin a project
-- Using mobile first approach and rem units, calculated for easy px use (for example 1.4rem = 14px)
+- Using <b>mobile first approach </b>and <b>rem units</b>, calculated for easy px use (for example 1.4rem = 14px)
 
 Great setup to start a new web project.
 
