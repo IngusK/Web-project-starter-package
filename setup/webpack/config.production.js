@@ -13,7 +13,7 @@ module.exports = {
   context: APP_DIR,
 
     entry: [
-      'webpack-dev-server/client?http://localhost:1234',
+      'webpack-dev-server/client?http://localhost:3000',
       APP_DIR + '/app/index.js'
     ],
     output: {
@@ -23,7 +23,7 @@ module.exports = {
     },
     devtool: 'hidden-source-map',
     devServer: {
-      port: 1234,
+      port: 3000,
       historyApiFallback: true
     },
     resolve: {

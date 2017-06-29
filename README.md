@@ -23,4 +23,4 @@ To start a development project run <pre>yarn start</pre> or <pre>yarn start:dev<
 
 To build a production bundle run <pre>yarn start:prod</pre> This will build a production bundle which will be much smaller with all js files minified. Then you can use <b>main.js</b> file to upload it to your hosting.
 
-Launch <pre>localhost:1234/</pre> in your browser to open a project.
+Launch <pre>localhost:3000/</pre> in your browser to open a project.

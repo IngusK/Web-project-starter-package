@@ -11,7 +11,7 @@ module.exports = {
 
     entry: [
       'react-hot-loader/patch',
-      'webpack-dev-server/client?http://localhost:1234',
+      'webpack-dev-server/client?http://localhost:3000',
       'webpack/hot/only-dev-server',
       APP_DIR + '/app/index.js'
     ],
@@ -25,7 +25,7 @@ module.exports = {
       hot: true,
       contentBase: ROOT_DIR,
       publicPath: '/build/',
-      port: 1234,
+      port: 3000,
       historyApiFallback: true
     },
     resolve: {
