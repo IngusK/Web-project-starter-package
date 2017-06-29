@@ -12,6 +12,7 @@
 - SASS loader 6.0.6
 - Development environment (~ 5Mb)
 - Production environment (~ 435Kb)
+- Normalizer and CSS reset
 - Basic CSS Grid layout to begin a project
 - Using <b>mobile first approach </b>and <b>rem units</b>, calculated for easy px use (for example 1.4rem = 14px)
 
