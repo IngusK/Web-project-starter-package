@@ -8,7 +8,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 18rem 1fr 18rem ;
   grid-template-areas: "header" "content" "footer";
-  @media (min-width: $tablet) {
+  @media #{$tablet} {
     grid-template-rows: 10rem 1fr 18rem ;
   }
   header {
