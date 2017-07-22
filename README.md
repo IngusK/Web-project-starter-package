@@ -19,8 +19,9 @@
 Great setup to start a new web project.
 
 You need to have node installed on your computer. Before launching a project make sure you have yarn packages installed. To do that use brew to install yarn and then launch "yarn" command in terminal.
-[link](https://yarnpkg.com/lang/en/docs/install/){:target="_blank"}
-Use <a href="https://yarnpkg.com/lang/en/docs/install/" target="_blank"> this link</a> to install yarn.
+
+Use <a href="https://nodejs.org/en/"> this link</a> to install node.js
+Use <a href="https://yarnpkg.com/lang/en/docs/install/"> this link</a> to install yarn
 
 To start a development project run <pre>yarn start</pre> or <pre>yarn start:dev</pre> This will build a development bundle with hot reload etc.
 
