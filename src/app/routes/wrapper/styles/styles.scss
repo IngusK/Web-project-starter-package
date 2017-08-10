@@ -1,0 +1,11 @@
+@import "../../../../app/styles/_theme.scss";
+
+.grid-wrapper {
+  display: grid;
+  height: 100vh;
+  background: $white;
+  grid-template:
+                ". header header header ." 12rem
+                ". content content content ." 1fr
+                ". footer footer footer ." 16rem / 1fr 6fr 6fr 6fr 1fr;
+}

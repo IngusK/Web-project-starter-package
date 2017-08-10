@@ -49,6 +49,7 @@ module.exports = {
                       'babel-plugin-transform-class-properties',
                       'babel-plugin-transform-object-rest-spread',
                       'babel-plugin-transform-object-assign',
+                      "inline-react-svg",
                       ['babel-plugin-transform-runtime', {
                         helpers: false,
                         polyfill: false,
@@ -60,6 +61,14 @@ module.exports = {
             {
                 test: /\.(css|scss)$/,
                 loader: 'style-loader!css-loader!sass-loader'
+            },
+            {
+              test: /\.(png|jpg|gif)$/,
+              use: [
+                {
+                  loader: 'url-loader'
+                }
+              ]
             }
         ]
     },
