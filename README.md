@@ -35,4 +35,4 @@ To build a production bundle run <pre>yarn start:prod</pre> This will build a pr
 
 Launch <pre>localhost:3000</pre> in your browser to open a project.
 
-To deploy a project to surge use <pre>yarn deploy </pre> command. Currenly it is named <b>webpack-setup.surge.sh</b> but you can rename it in <b>CNAME</b> file.
+To deploy a project to surge use <pre>yarn deploy </pre> command. Currenly subdomain is <b>webpack-setup.surge.sh</b> but you can rename it in <b>CNAME</b> file.
