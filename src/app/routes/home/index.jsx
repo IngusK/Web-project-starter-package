@@ -1,12 +1,18 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import {database} from "firebase";
 
-import style from './style.scss';
+import style from './styles.scss';
 
-const Home = () => (
-  <div className="main_content">
-    Content
-  </div>
-);
+export default class Home extends React.PureComponent {
 
-export default Home;
+  render() {
+    return (
+      <div className="main-content">
+        <h1>
+          {/* {lastPost.name} */}
+        </h1>
+      </div>
+    );
+  }
+};
